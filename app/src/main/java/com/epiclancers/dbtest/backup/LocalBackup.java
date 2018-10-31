@@ -15,7 +15,7 @@
  *
  */
 
-package com.prof.dbtest.backup;
+package com.epiclancers.dbtest.backup;
 
 import android.os.Environment;
 import android.support.v7.app.AlertDialog;
@@ -24,10 +24,10 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.prof.dbtest.db.DBHelper;
-import com.prof.dbtest.Permissions;
-import com.prof.dbtest.R;
-import com.prof.dbtest.ui.MainActivity;
+import com.epiclancers.dbtest.db.DBHelper;
+import com.epiclancers.dbtest.Permissions;
+import com.epiclancers.dbtest.R;
+import com.epiclancers.dbtest.ui.MainActivity;
 
 import java.io.File;
 

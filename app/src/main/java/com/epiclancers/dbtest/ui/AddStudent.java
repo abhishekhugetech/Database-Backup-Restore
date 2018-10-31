@@ -16,7 +16,7 @@
  */
 
 
-package com.prof.dbtest.ui;
+package com.epiclancers.dbtest.ui;
 
 import android.app.DatePickerDialog;
 import android.os.Bundle;
@@ -24,14 +24,13 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.prof.dbtest.db.DBHelper;
-import com.prof.dbtest.data.Student;
-import com.prof.dbtest.R;
+import com.epiclancers.dbtest.db.DBHelper;
+import com.epiclancers.dbtest.data.Student;
+import com.epiclancers.dbtest.R;
 
 import java.util.Calendar;
 

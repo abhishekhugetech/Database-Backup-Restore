@@ -15,7 +15,7 @@
  *
  */
 
-package com.prof.dbtest.ui;
+package com.epiclancers.dbtest.ui;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -37,19 +37,19 @@ import android.widget.Toast;
 
 import com.google.android.gms.drive.DriveId;
 import com.google.android.gms.drive.OpenFileActivityOptions;
-import com.prof.dbtest.db.DBHelper;
-import com.prof.dbtest.data.Exam;
-import com.prof.dbtest.data.Student;
-import com.prof.dbtest.R;
-import com.prof.dbtest.backup.LocalBackup;
-import com.prof.dbtest.backup.RemoteBackup;
+import com.epiclancers.dbtest.db.DBHelper;
+import com.epiclancers.dbtest.data.Exam;
+import com.epiclancers.dbtest.data.Student;
+import com.epiclancers.dbtest.R;
+import com.epiclancers.dbtest.backup.LocalBackup;
+import com.epiclancers.dbtest.backup.RemoteBackup;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import static com.prof.dbtest.db.DBHelper.getDatabaseVersion;
+import static com.epiclancers.dbtest.db.DBHelper.getDatabaseVersion;
 
 public class MainActivity extends AppCompatActivity {
 

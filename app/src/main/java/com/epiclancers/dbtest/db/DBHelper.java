@@ -15,7 +15,7 @@
  *
  */
 
-package com.prof.dbtest.db;
+package com.epiclancers.dbtest.db;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -24,8 +24,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.widget.Toast;
 
-import com.prof.dbtest.data.Exam;
-import com.prof.dbtest.data.Student;
+import com.epiclancers.dbtest.data.Exam;
+import com.epiclancers.dbtest.data.Student;
 
 import java.io.File;
 import java.io.FileInputStream;

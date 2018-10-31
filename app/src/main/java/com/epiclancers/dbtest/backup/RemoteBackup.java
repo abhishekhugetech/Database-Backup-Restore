@@ -15,7 +15,7 @@
  *
  */
 
-package com.prof.dbtest.backup;
+package com.epiclancers.dbtest.backup;
 
 import android.content.IntentSender;
 import android.os.ParcelFileDescriptor;
@@ -40,7 +40,7 @@ import com.google.android.gms.drive.query.SearchableField;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.Task;
 import com.google.android.gms.tasks.TaskCompletionSource;
-import com.prof.dbtest.ui.MainActivity;
+import com.epiclancers.dbtest.ui.MainActivity;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -48,10 +48,10 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 
-import static com.prof.dbtest.db.DBHelper.DATABASE_NAME;
-import static com.prof.dbtest.ui.MainActivity.REQUEST_CODE_CREATION;
-import static com.prof.dbtest.ui.MainActivity.REQUEST_CODE_OPENING;
-import static com.prof.dbtest.ui.MainActivity.REQUEST_CODE_SIGN_IN;
+import static com.epiclancers.dbtest.db.DBHelper.DATABASE_NAME;
+import static com.epiclancers.dbtest.ui.MainActivity.REQUEST_CODE_CREATION;
+import static com.epiclancers.dbtest.ui.MainActivity.REQUEST_CODE_OPENING;
+import static com.epiclancers.dbtest.ui.MainActivity.REQUEST_CODE_SIGN_IN;
 
 public class RemoteBackup {
 
@@ -128,7 +128,7 @@ public class RemoteBackup {
         }
 
         MetadataChangeSet metadataChangeSet = new MetadataChangeSet.Builder()
-                .setTitle("database_backup.db")
+                .setTitle("sulav_billing_backup.db")
                 .setMimeType("application/db")
                 .build();
 

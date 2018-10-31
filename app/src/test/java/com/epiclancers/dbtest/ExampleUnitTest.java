@@ -1,4 +1,4 @@
-package com.prof.dbtest;
+package com.epiclancers.dbtest;
 
 import org.junit.Test;
 

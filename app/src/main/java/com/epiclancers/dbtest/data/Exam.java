@@ -16,14 +16,13 @@
  */
 
 
-package com.prof.dbtest.data;
+package com.epiclancers.dbtest.data;
 
-public class Student {
+public class Exam {
 
     private int id;
-    private String name;
-    private String surname;
-    private long born;
+    private int student;
+    private int evaluation;
 
     public int getId() {
         return id;
@@ -33,27 +32,19 @@ public class Student {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public int getStudent() {
+        return student;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setStudent(int student) {
+        this.student = student;
     }
 
-    public String getSurname() {
-        return surname;
+    public int getEvaluation() {
+        return evaluation;
     }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
-
-    public long getBorn() {
-        return born;
-    }
-
-    public void setBorn(long born) {
-        this.born = born;
+    public void setEvaluation(int evaluation) {
+        this.evaluation = evaluation;
     }
 }

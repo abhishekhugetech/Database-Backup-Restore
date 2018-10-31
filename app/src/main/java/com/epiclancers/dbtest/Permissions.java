@@ -16,14 +16,14 @@
  */
 
 
-package com.prof.dbtest;
+package com.epiclancers.dbtest;
 
 import android.Manifest;
 import android.app.Activity;
 import android.content.pm.PackageManager;
 import android.support.v4.app.ActivityCompat;
 
-import static com.prof.dbtest.ui.MainActivity.REQUEST_CODE_PERMISSIONS;
+import static com.epiclancers.dbtest.ui.MainActivity.REQUEST_CODE_PERMISSIONS;
 
 public class Permissions {
 

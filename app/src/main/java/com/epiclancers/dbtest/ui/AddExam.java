@@ -16,7 +16,7 @@
  */
 
 
-package com.prof.dbtest.ui;
+package com.epiclancers.dbtest.ui;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -32,9 +32,9 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.prof.dbtest.db.DBHelper;
-import com.prof.dbtest.data.Exam;
-import com.prof.dbtest.R;
+import com.epiclancers.dbtest.db.DBHelper;
+import com.epiclancers.dbtest.data.Exam;
+import com.epiclancers.dbtest.R;
 
 import java.util.ArrayList;
 
